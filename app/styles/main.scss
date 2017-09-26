@@ -53,6 +53,7 @@ input {
         font-size: 24px;
         color: #293341;
         margin-bottom: 10px;
+        line-height: 35px;
         &.pink {
             color: $color_pink-title;
         }
@@ -60,6 +61,7 @@ input {
     .desc {
         font-size: 14px;
         color: #8F959D;
+        line-height: 25px;
     }
 }
 
@@ -70,6 +72,7 @@ input {
         font-size: 16px;
         color: #293341;
         margin-bottom: 10px;
+        line-height: 25px;
     }
     .desc {
         font-weight: lighter;
@@ -135,3 +138,5 @@ input {
 @import "./views/contact";
 
 /*=====  End of Views  ======*/
+
+@import './responsive';

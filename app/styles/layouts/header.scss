@@ -3,30 +3,49 @@
 =============================================*/
 
 header {
-    nav {
-        font-size: 14px;
-        padding: 40px 0;
-        color: white;
-        ul {
-            >li {
-                display: inline-block;
-                margin-left: 8px;
-                >a {
-                    padding: 10px;
-                    opacity: .5;
-                    transition: .3s;
-                    &:hover,
-                    &.active {
-                        opacity: 1;
-                    }
-                }
-            }
+  position: relative;
+  .fixed{
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      z-index: 212;
+  }
+  .brand-logo{
+    position: relative;
+    z-index: 123;
+  }
+  nav {
+    font-size: 14px;
+    padding: 40px 0;
+    color: white;
+    ul {
+      > li {
+        display: inline-block;
+        margin-left: 8px;
+        > a {
+          padding: 10px;
+          opacity: 0.5;
+          transition: 0.3s;
+          &:hover,
+          &.active {
+            opacity: 1;
+          }
         }
+      }
     }
-    .header-holder{
-        border-bottom: 1px solid rgba(245,247,260,.2);
-    }
+
+   
+  }
+  .header-holder {
+    border-bottom: 1px solid rgba(245, 247, 260, 0.2);
+  }
+  .menu-toggle {
+    z-index: 123;
+    display: none;
+  }
 }
 
+@include hamburger-toggle("menu-toggle", "trigger", "is-active", 30, 30, 2, 10, 10, white);
 
 /*=====  End of Header  ======*/

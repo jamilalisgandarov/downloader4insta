@@ -36,6 +36,11 @@
                 right: 20px;
                 bottom: 20px;
                 cursor: pointer;
+                padding-top: 10px;
+                transition: .4s;
+                &:hover{
+                    background-color: #f32b73;
+                }
             }
         }
         .main-content{
