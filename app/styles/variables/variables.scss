@@ -1,0 +1,23 @@
+/*=============================================
+=            Fonts            =
+=============================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700');
+
+/*=====  End of Fonts  ======*/
+
+//colors
+$color_top-gradient: linear-gradient( -21deg,
+#e40032 0%,
+#bf00a3 50%,
+#5000c3 100%);
+$color_icon-gradient:inear-gradient(-87deg,
+#E40032 0%,
+#A700A9 99%);
+$color_black-lighter: #293341;
+$color_pink-title:#FF3F85;
+$color_gray-p:#8F959D;
+//border-radius
+$border-radius:2px;
+//sizes
+$size_wrapper-width:1180px;

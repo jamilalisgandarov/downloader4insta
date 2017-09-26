@@ -1,0 +1,32 @@
+/*=============================================
+=            Header            =
+=============================================*/
+
+header {
+    nav {
+        font-size: 14px;
+        padding: 40px 0;
+        color: white;
+        ul {
+            >li {
+                display: inline-block;
+                margin-left: 8px;
+                >a {
+                    padding: 10px;
+                    opacity: .5;
+                    transition: .3s;
+                    &:hover,
+                    &.active {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    .header-holder{
+        border-bottom: 1px solid rgba(245,247,260,.2);
+    }
+}
+
+
+/*=====  End of Header  ======*/
