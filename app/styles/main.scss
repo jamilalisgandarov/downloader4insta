@@ -5,6 +5,9 @@
 =            Common modifications            =
 =============================================*/
 
+*{
+    outline: none;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     color: $color_black-lighter;
@@ -91,12 +94,12 @@ input {
     font-weight: 400;
     font-size: 14px;
     color: #FFFFFF;
-    i{
+    i {
         font-size: 20px;
         margin-right: 10px;
         vertical-align: middle;
     }
-    &:hover{
+    &:hover {
         color: white;
     }
 }
@@ -113,6 +116,9 @@ input {
 @import "./layouts/footer";
 .top-gradient {
     background: $color_top-gradient;
+    .ratings {
+        margin-bottom: 100px;
+    }
 }
 
 
