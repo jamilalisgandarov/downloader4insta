@@ -7,6 +7,10 @@
     .result{
         .img{
             width: 380px;
+            height: 380px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
             margin-right: 50px;
             img{
                 max-width: 100%;
@@ -23,7 +27,7 @@
             }
             a.button-style{
                 margin-top: 30px;
-                
+
             }
         }
     }

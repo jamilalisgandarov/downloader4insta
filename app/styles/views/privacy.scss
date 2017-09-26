@@ -1,0 +1,27 @@
+/*=============================================
+=            Privacy n policy            =
+=============================================*/
+
+#privacy {
+    .content-container {
+        padding: 60px 100px;
+        .main-content {
+            text-align: left;
+        }
+        .seperator {
+            height: 1px;
+            background-color: #E7EBF1;
+            margin: 40px 0;
+        }
+        .pink {
+            color: $color_pink-title;
+        }
+        a{
+            color: #4B96D0;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+/*=====  End of Privacy n policy  ======*/
