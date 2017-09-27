@@ -8,7 +8,7 @@
     color: white;
     .content {
         .title {
-            font-weight: 500;
+            font-weight: 400;
             font-size: 24px;
             margin-bottom: 15px;
             line-height: 35px;
@@ -18,6 +18,7 @@
             font-size: 14px;
             color: white;
             line-height: 25px;
+            font-weight: 300;
         }
     }
     &.insider {
@@ -37,6 +38,22 @@
                 font-size: 14px;
                 width: 780px;
                 box-sizing: border-box;
+                &::-webkit-input-placeholder {
+                    /* Chrome/Opera/Safari */
+                    color: #aaaaaa;
+                }
+                &::-moz-placeholder {
+                    /* Firefox 19+ */
+                    color: #aaaaaa;
+                }
+                &:-ms-input-placeholder {
+                    /* IE 10+ */
+                    color: #aaaaaa;
+                }
+                &:-moz-placeholder {
+                    /* Firefox 18- */
+                    color: #aaaaaa;
+                }
             }
             button[type="submit"] {
                 position: absolute;
@@ -47,7 +64,7 @@
                 cursor: pointer;
                 height: 100%;
                 padding: 20px;
-                transition: .4s;
+                transition: 0.4s;
                 i {
                     position: relative;
                     z-index: 2;
@@ -84,6 +101,7 @@
     .rating-desc {
         margin-top: 15px;
         font-size: 14px;
+        font-weight: 300;
     }
 }
 
@@ -163,7 +181,7 @@
                 border-top: 1px solid #e7ebf1;
                 margin-top: 25px;
                 padding-top: 28px;
-                font-weight: lighter;
+                font-weight: 200;
                 font-size: 15px;
                 color: #293341;
                 line-height: 20px;
@@ -172,8 +190,8 @@
         .owl-nav {
             position: absolute;
             top: 50%;
-            left: -8%;
-            width: 116%;
+            left: -5.1%;
+            width: 110.2%;
             display: flex;
             justify-content: space-between;
             &.disabled {
@@ -182,6 +200,7 @@
         }
         .owl-dots {
             margin-top: 25px;
+            text-align: center;
             .owl-dot {
                 display: inline-block;
                 margin: 0 7px;
@@ -196,7 +215,7 @@
                     height: 15px;
                     border-radius: 100%;
                     background: #d6d6d6;
-                    opacity: .4;
+                    opacity: 0.4;
                 }
             }
         }

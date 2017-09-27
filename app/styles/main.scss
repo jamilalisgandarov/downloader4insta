@@ -12,6 +12,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: $color_black-lighter;
     background-color: #F5F7FA;
+    overflow-x: hidden;
 }
 
 a,
@@ -25,6 +26,8 @@ button,
 input {
     background: transparent;
     border: none;
+    margin: 0;
+    
 }
 
 
@@ -75,7 +78,7 @@ input {
         line-height: 25px;
     }
     .desc {
-        font-weight: lighter;
+        font-weight: 200;
         font-size: 14px;
         color: #293341;
         line-height: 20px;
